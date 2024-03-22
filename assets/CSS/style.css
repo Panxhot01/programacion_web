@@ -1,0 +1,29 @@
+.titulo{
+    color: red;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid blue;
+    text-align: center;
+}
+/*propiedad que permite editar la lista de verticar a horizontal*/
+ul {
+    list-style-type: none;
+    margin: 20px;
+    padding: 20px;
+    background: blue;
+  }
+
+  li {
+    display: inline;
+    margin-left: 25px;
+    font-size: 30px ;
+  }
+
+  .volver {
+    float: right;
+  }
+
+  li a {
+    text-decoration: none;
+    color: red;
+  }
